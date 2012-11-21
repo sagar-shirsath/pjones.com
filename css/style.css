@@ -56,7 +56,11 @@ p {margin-bottom:18px}
 .indent-bot {margin-bottom:20px}
 .indent-bot2 {margin-bottom:28px}
 
-.prev-indent-bot {margin-bottom:10px}
+.prev-indent-bot
+{
+    margin-bottom:10px;
+    text-align: justify;
+}
 .img-indent-bot {margin-bottom:25px}
 .margin-bot {margin-bottom:35px}
 
@@ -532,6 +536,5 @@ html, body {height:100%}
 }
 #footer_link_id li a:hover
 {
-
     color: #fff;
 }
