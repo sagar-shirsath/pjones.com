@@ -8,7 +8,10 @@
 body { font: 14px Georgia, serif; background: #2F2626;  }
 
 /*header { padding: 100px 0 0 0; display: block; }*/
-header h1 { width: 960px; margin: 0 auto; }
+header h1 {
+    /*width: 960px;*/
+    margin: 0 auto;
+}
 a { color: #eee; }
 a:hover { color: white; }
 
@@ -84,7 +87,7 @@ a:hover { color: white; }
     font-size: 14px;
     display: block;
     float: left;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 8px 10px 9px;
     text-decoration: none;
     text-transform: uppercase;
 }
