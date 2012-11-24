@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% block header%}
+    {%include 'header.html'%}
+{% endblock %}
+
+    {% block javascripts%}
+    {% endblock %}
+
+<body id="page1">
+<div class="extra">
+    {% block content%}
+    {% endblock %}
+</div>
+</body>
+{% block footer%}
+
+{%include 'footer.html'%}
+{% endblock %}
+
+<script type="text/javascript"> Cufon.now(); </script>
+
+</html>
+
+
+
