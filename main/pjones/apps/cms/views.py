@@ -25,3 +25,9 @@ def projects(request):
 
 def help(request):
     return render_to_response("cms/help.html", context_instance=RequestContext(request))
+
+def services(request):
+    return render_to_response("cms/services.html", context_instance=RequestContext(request))
+
+def contact(request):
+    return render_to_response("cms/contact.html", context_instance=RequestContext(request))

@@ -87,32 +87,16 @@
     <div class="nav-wrap">
 
         <ul class="group" id="example-two">
-            <li class="current_page_item_two" style="border-top:3px solid #fe4902;"><a rel="#fe4902" href="index.html">Home</a></li>
-            <li style="border-top:3px solid #A41322 "><a rel="#A41322" href="company.html">Our Company</a></li>
-            <li style="border-top:3px solid #C6AA01 "><a rel="#C6AA01" href="services.html">Our Services</a></li>
-            <li style="border-top:3px solid #900 " ><a rel="#900" href="#">Careers</a></li>
+            <li class="current_page_item_two" style="border-top:3px solid #fe4902;"><a rel="#fe4902" href="{% url index%}">Home</a></li>
+            <li style="border-top:3px solid #A41322 "><a rel="#A41322" href="{%url company%}">Our Company</a></li>
+            <li style="border-top:3px solid #C6AA01 "><a rel="#C6AA01" href="{%url services%}">Our Services</a></li>
+            <li style="border-top:3px solid #900 " ><a rel="#900" href="{%url careers%}">Careers</a></li>
             <li style="border-top:3px solid #D40229 "><a rel="#D40229" href="#">Order Taking </a></li>
             <li style="border-top:3px solid #98CEAA "><a rel="#98CEAA" href="#">Inbound Call Center</a></li>
-            <li style="border-top:3px solid #1B9B93 "><a rel="#1B9B93" href="#">Web Services</a></li>
-            <li style="border-top:3px solid #8DC91E "><a rel="#8DC91E" href="contact.html">Contact Us</a></li>
+            <li style="border-top:3px solid #1B9B93 "><a rel="#1B9B93" href="{% url services%}">Web Services</a></li>
+            <li style="border-top:3px solid #8DC91E "><a rel="#8DC91E" href="{%url contact%}">Contact Us</a></li>
         </ul>
 
     </div>
-    <div class="row-bot">
-        <div class="center-shadow">
-            <div class="carousel-container">
-                <div id="carousel">
-                    <div class="carousel-feature">
-                        <a href="#"><img class="carousel-image" alt="" src="{{STATIC_URL}}images/gallery-img1.png"></a>
-                    </div>
-                    <div class="carousel-feature">
-                        <a href="#"><img class="carousel-image" alt="" src="{{STATIC_URL}}images/gallery-img3.png"></a>
-                    </div>
-                    <div class="carousel-feature">
-                        <a href="#"><img class="carousel-image" alt="" src="{{STATIC_URL}}images/gallery-img2.png"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
 </header>
